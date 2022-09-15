@@ -1,9 +1,16 @@
-{"children":[{"name":"Individuo","children":[{"name":"mister_a","group":"A","value":28,"colname":"level3"},
-{"name":"mister_b","group":"A","value":19,"colname":"level3"},
-{"name":"mister_c","group":"C","value":18,"colname":"level3"},
-{"name":"mister_d","group":"C","value":19,"colname":"level3"}],"colname":"level2"},
+{"children":[{"name":"Individuo","children":[
+{"name":"Saber","group":"Competências técnicas","value":4,"colname":"level1"},
+{"name":"Competência","group":"Competências técnicas","value":5,"colname":"level3"},
+{"name":"Conhecimento","group":"Competências técnicas","value":33,"colname":"level3"},
+{"name":"Prática","group":"Competências técnicas","value":60,"colname":"level3"},
+{"name":"Vivência","group":"Competências técnicas","value":3,"colname":"level3"},
+{"name":"Treinamento","group":"Competências técnicas","value":39,"colname":"level3"},
+{"name":"Capacitação","group":"Competências técnicas","value":24,"colname":"level3"},
+{"name":"Capacidade","group":"Competências técnicas","value":10,"colname":"level3"}],"colname":"level2"},
 
-{"name":"Trabalho","children":[{"name":"mister_e","group":"C","value":14,"colname":"level3"},
+
+{"name":"Trabalho","children":[
+{"name":"mister_e","group":"C","value":14,"colname":"level3"},
 {"name":"mister_f","group":"A","value":11,"colname":"level3"},
 {"name":"mister_g","group":"B","value":15,"colname":"level3"},
 {"name":"mister_h","group":"B","value":16,"colname":"level3"}],"colname":"level2"},
