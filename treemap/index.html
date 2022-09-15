@@ -13,8 +13,8 @@
 
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 10, bottom: 10, left: 10},
-  width = 700 - margin.left - margin.right,
-  height = 900 - margin.top - margin.bottom;
+  width = 900 - margin.left - margin.right,
+  height = 1500 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svg = d3.select("#my_dataviz")
@@ -74,7 +74,7 @@ d3.json("https://raw.githubusercontent.com/tatitozzitt/arvore/main/treemap/data_
       .attr("x", function(d){ return d.x0+5})    // +10 to adjust position (more right)
       .attr("y", function(d){ return d.y0+20})    // +20 to adjust position (lower)
       .text(function(d){ return d.data.name.replace('mister_','') })
-      .attr("font-size", "19px")
+      .attr("font-size", "14px")
       .attr("fill", "white")
 
   // and to add the text labels
@@ -105,9 +105,9 @@ d3.json("https://raw.githubusercontent.com/tatitozzitt/arvore/main/treemap/data_
   svg
     .append("text")
       .attr("x", 0)
-      .attr("y", 14)    // +20 to adjust position (lower)
+      .attr("y", 10)    // +20 to adjust position (lower)
       .text("Dimensões")
-      .attr("font-size", "19px")
+      .attr("font-size", "10px")
       .attr("fill",  "grey" )
 
 })
