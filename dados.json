@@ -35,7 +35,53 @@
             {"name": "Proximidade", "size": 7}, 
             {"name": "Respeito", "size": 9}, 
             {"name": "Compreensão","size": 2}
-       ]}
+       ]},
+
+       {"name": "Tomada de decisão",
+       "children": [
+           {"name": "Tomada de decisão", "size": 2}, 
+           {"name": "Decidido", "size": 8}, 
+           {"name": "Decisivo","size": 18},
+           {"name": "Interromper","size": 4},
+           {"name": "Decisão","size": 18},
+           {"name": "Aprovação","size": 16},
+           {"name": "Análise","size": 108},
+           {"name": "Aprovar","size": 33},
+           {"name": "Ação","size": 1582},
+           {"name": "Assumiu","size": 2}
+      ]},
+
+      {"name": "Consciência situacional",
+      "children": [
+          {"name": "Atenção", "size": 2}, 
+          {"name": "Risco", "size": 152}
+     ]},
+
+     {"name": "Atitude",
+     "children": [
+         {"name": "Motivação", "size": 3}, 
+         {"name": "Atenção", "size": 2}, 
+         {"name": "Informou", "size": 8}
+    ]},
+
+    {"name": "Condições psicológicas",
+    "children": [
+        {"name": "Mental", "size": 5}
+   ]},
+
+   {"name": "Condições fisiológicas",
+   "children": [
+       {"name": "Sono", "size": 6}
+  ]},
+
+  {"name": "Condições Sociais",
+  "children": [
+      {"name": "Cultura", "size": 2},
+      {"name": "Lingua", "size": 4},
+      {"name": "Idioma", "size": 2},
+      {"name": "Família", "size": 4},
+      {"name": "Familiar", "size": 3}
+ ]}
 
     ]    
 }
