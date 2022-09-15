@@ -14,7 +14,7 @@
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 10, bottom: 10, left: 10},
   width = 1600 - margin.left - margin.right,
-  height = 1500 - margin.top - margin.bottom;
+  height = 1000 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svg = d3.select("#my_dataviz")
@@ -71,9 +71,9 @@ d3.json("https://raw.githubusercontent.com/tatitozzitt/arvore/main/treemap/data_
     .data(root.leaves())
     .enter()
     .append("text")
-      .attr("x", function(d){ return d.x0+5})    // +10 to adjust position (more right)
+      .attr("x", function(d){ return d.x0+10})    // +10 to adjust position (more right)
       .attr("y", function(d){ return d.y0+20})    // +20 to adjust position (lower)
-      .text(function(d){ return d.data.name.replace('mister_','') })
+      .text(function(d){ return d.data.name.replace('desc','') })
       .attr("font-size", "14px")
       .attr("fill", "white")
 
@@ -84,9 +84,9 @@ d3.json("https://raw.githubusercontent.com/tatitozzitt/arvore/main/treemap/data_
     .enter()
     .append("text")
       .attr("x", function(d){ return d.x0+5})    // +10 to adjust position (more right)
-      .attr("y", function(d){ return d.y0+35})    // +20 to adjust position (lower)
+      .attr("y", function(d){ return d.y0+40})    // +20 to adjust position (lower)
       .text(function(d){ return d.data.value })
-      .attr("font-size", "11px")
+      .attr("font-size", "9px")
       .attr("fill", "white")
 
   // Add title for the 3 groups
@@ -96,7 +96,7 @@ d3.json("https://raw.githubusercontent.com/tatitozzitt/arvore/main/treemap/data_
     .enter()
     .append("text")
       .attr("x", function(d){ return d.x0})
-      .attr("y", function(d){ return d.y0+21})
+      .attr("y", function(d){ return d.y0+10})
       .text(function(d){ return d.data.name })
       .attr("font-size", "19px")
       .attr("fill",  function(d){ return color(d.data.name)} )
@@ -107,7 +107,7 @@ d3.json("https://raw.githubusercontent.com/tatitozzitt/arvore/main/treemap/data_
       .attr("x", 0)
       .attr("y", 10)    // +20 to adjust position (lower)
       .text("Dimensões")
-      .attr("font-size", "10px")
+      .attr("font-size", "20px")
       .attr("fill",  "grey" )
 
 })
