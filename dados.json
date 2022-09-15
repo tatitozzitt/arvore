@@ -28,7 +28,14 @@
             {"name": "Time", "size": 37 }, 
             {"name": "Grupo","size": 6},
             {"name": "Conflito","size": 3}
-        ]}
+        ]},
+
+        {"name": "Capacidade relacional",
+        "children": [
+            {"name": "Proximidade", "size": 7}, 
+            {"name": "Respeito", "size": 9}, 
+            {"name": "Compreensão","size": 2}
+       ]}
 
     ]    
 }
