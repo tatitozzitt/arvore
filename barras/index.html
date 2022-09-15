@@ -13,9 +13,9 @@
 
 
 // set the dimensions and margins of the graph
-var margin = {top: 20, right: 30, bottom: 40, left: 90},
-    width = 460 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+var margin = {top: 30, right: 40, bottom: 50, left: 200},
+    width = 800 - margin.left - margin.right,
+    height = 1500 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svg = d3.select("#my_dataviz")
@@ -27,7 +27,7 @@ var svg = d3.select("#my_dataviz")
           "translate(" + margin.left + "," + margin.top + ")");
 
 // Parse the Data
-d3.csv("resultado_selecao.csv", function(data) {
+d3.csv("https://raw.githubusercontent.com/tatitozzitt/arvore/main/barras/resultado_selecao.csv", function(data) {
 
   // Add X axis
   var x = d3.scaleLinear()
