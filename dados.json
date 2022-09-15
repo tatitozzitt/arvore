@@ -1,8 +1,6 @@
-{
-    "name": "Relatorio",
-    "children": [{ "name": "Indivíduo",
-    "children": [{
-        "name": "Competências técnicas",
+{   "name": "Relatorio",
+    "children": [{"name": "Indivíduo",
+    "children": [{"name": "Competências técnicas",
         "children": [
             {"name": "Saber", "size": 4}, 
             {"name": "Competência", "size": 5 }, 
@@ -13,7 +11,7 @@
             {"name": "Capacitação","size": 24},
             {"name": "Capacidade","size": 10},
         ]}
-                ]
+                ],
         "children": [{
             "name": "Comunicação",
             "children": [
@@ -22,8 +20,9 @@
                 {"name": "Feedback","size": 3},
                 {"name": "Transmissão","size": 4},
                 {"name": "Entendimento","size": 8},
-            ]}
-                    ]
+                        ]
+                    }
+                ]   ,
         "children": [{
             "name": "Trabalho em equipe",
             "children": [
@@ -32,6 +31,6 @@
                 {"name": "Grupo","size": 6},
                 {"name": "Conflito","size": 3},
             ]}
-                    ]
+                    ],
     }]
 }
