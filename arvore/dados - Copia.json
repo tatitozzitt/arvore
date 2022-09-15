@@ -1,7 +1,8 @@
 {    
-    "name": "Relatorio",
+    "name": "Relatório",
     "children":[
-      {"name": "Indíviduo",
+
+{"name": "Indíviduo",
     
     "children": [
        {"name": "Competências técnicas",
@@ -88,78 +89,85 @@
 
  ]},
 
+ {"name": "Trabalho",
+ "children": [
+   
  {"name": "Design do trabalho",
- "children": [
-    {"name": "Regra", "size": 3},
-    {"name": "Instrução", "size": 27},
-    {"name": "Diretriz", "size": 2},
-    {"name": "Procedimento", "size": 227},
-    {"name": "Norma", "size": 52},
-    {"name": "Revisão", "size": 143},
-    {"name": "Desvio", "size": 6},
-    {"name": "Gerenciamento de mudança", "size": 52},
-    {"name": "Gestão de mudança", "size": 27},
-    {"name": "Revisão", "size": 143},
-    {"name": "Reavaliação", "size": 2}
- ]},
-
- {"name": "Design de interface",
- "children": [
-    {"name": "Equipamento", "size": 91},
-    {"name": "Salvaguarda", "size": 25},
-    {"name": "Instrumento", "size": 15},
-    {"name": "Ferramenta", "size": 26},
-    {"name": "Instalação", "size": 170},
-    {"name": "Dimensionamento", "size": 3},
-    {"name": "Configuração", "size": 7}
- ]},
-
- {"name": "Condições internas",
- "children": [
-    {"name": "Temperatura", "size": 24},
-    {"name": "Calor", "size": 12},
-    {"name": "Ruído", "size": 5},
-    {"name": "Lâmpada", "size": 3},
-    {"name": "Som", "size": 26},
-    {"name": "Limpeza", "size": 19},
-    {"name": "Limpo", "size": 21},
-    {"name": "Ventilação", "size": 9}
- ]},
-
- {"name": "Condições externas",
- "children": [
-    {"name": "Mar", "size": 361},
-    {"name": "Vento", "size": 46},
-    {"name": "Sol", "size": 218}
- ]},
-
- {"name": "Liderança",
- "children": [
-    {"name": "Liderança", "size": 26},
-    {"name": "Líder", "size": 26},
-    {"name": "Responsável", "size": 17},
-    {"name": "Gestão", "size": 57}
- ]},
-
- {"name": "Cultura de segurança",
- "children": [
-    {"name": "Cultura de segurança", "size": 2}
- ]},
-
- 
- {"name": "Aprendizagem",
- "children": [
-    {"name": "Treinamento", "size": 39},
-    {"name": "Capacitação", "size": 24},
-    {"name": "Boas práticas", "size": 9}
- ]},
-
+   "children": [
+      {"name": "Regra", "size": 3},
+      {"name": "Instrução", "size": 27},
+      {"name": "Diretriz", "size": 2},
+      {"name": "Procedimento", "size": 227},
+      {"name": "Norma", "size": 52},
+      {"name": "Revisão", "size": 143},
+      {"name": "Desvio", "size": 6},
+      {"name": "Gerenciamento de mudança", "size": 52},
+      {"name": "Gestão de mudança", "size": 27},
+      {"name": "Revisão", "size": 143},
+      {"name": "Reavaliação", "size": 2}
+   ]},
   
- {"name": "Gestão",
- "children": [
-    {"name": "Gerenciamento de segurança", "size": 11},
-    {"name": "Segurança operacional", "size": 339}
- ]}
-    ]    
+   {"name": "Design de interface",
+   "children": [
+      {"name": "Equipamento", "size": 91},
+      {"name": "Salvaguarda", "size": 25},
+      {"name": "Instrumento", "size": 15},
+      {"name": "Ferramenta", "size": 26},
+      {"name": "Instalação", "size": 170},
+      {"name": "Dimensionamento", "size": 3},
+      {"name": "Configuração", "size": 7}
+   ]},
+  
+   {"name": "Condições internas",
+   "children": [
+      {"name": "Temperatura", "size": 24},
+      {"name": "Calor", "size": 12},
+      {"name": "Ruído", "size": 5},
+      {"name": "Lâmpada", "size": 3},
+      {"name": "Som", "size": 26},
+      {"name": "Limpeza", "size": 19},
+      {"name": "Limpo", "size": 21},
+      {"name": "Ventilação", "size": 9}
+   ]},
+  
+   {"name": "Condições externas",
+   "children": [
+      {"name": "Mar", "size": 361},
+      {"name": "Vento", "size": 46},
+      {"name": "Sol", "size": 218}
+   ]},
+  
+   {"name": "Liderança",
+   "children": [
+      {"name": "Liderança", "size": 26},
+      {"name": "Líder", "size": 26},
+      {"name": "Responsável", "size": 17},
+      {"name": "Gestão", "size": 57}
+   ]}
 
-}
+      ]},
+
+      {"name": "Organização",
+    
+      "children": [
+         {"name": "Cultura de segurança",
+         "children": [
+            {"name": "Cultura de segurança", "size": 2}
+         ]},
+        
+         
+         {"name": "Aprendizagem",
+         "children": [
+            {"name": "Treinamento", "size": 39},
+            {"name": "Capacitação", "size": 24},
+            {"name": "Boas práticas", "size": 9}
+         ]},
+        
+          
+         {"name": "Gestão",
+         "children": [
+            {"name": "Gerenciamento de segurança", "size": 11},
+            {"name": "Segurança operacional", "size": 339}
+         ]}
+           ]}
+]}
