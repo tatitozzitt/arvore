@@ -81,9 +81,9 @@
 ],"colname":"level2"},
 
 {"name":"Organização","children":[
-{"name":"mister_i","group":"B","value":10,"colname":"level2"},
-{"name":"mister_j","group":"A","value":13,"colname":"level2"},
-{"name":"mister_k","group":"A","value":13,"colname":"level2"},
-{"name":"mister_l","group":"D","value":25,"colname":"level2"},
-{"name":"mister_m","group":"D","value":16,"colname":"level2"},
-{"name":"mister_n","group":"D","value":28,"colname":"level2"}],"colname":"level2"}],"name":"CEO"}
+{"name":"Cultura de segurança","group":"Cultura de segurança","value":2,"colname":"level2"},
+{"name":"Capacitação","group":"Aprendizagem","value":24,"colname":"level2"},
+{"name":"Boas práticas","group":"Aprendizagem","value":9,"colname":"level2"},
+{"name":"Treinamento","group":"Aprendizagem","value":39,"colname":"level2"},
+{"name":"Gerenciamento de segurança","group":"Gestão","value":11,"colname":"level2"},
+{"name":"Segurança operacional","group":"Gestão","value":339,"colname":"level2"}],"colname":"level2"}],"name":"Dominios"}
