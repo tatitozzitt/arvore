@@ -96,7 +96,21 @@
     {"name": "Gestão de mudança", "size": 27},
     {"name": "Revisão", "size": 143},
     {"name": "Reavaliação", "size": 2}
+ ]},
+
+ {"name": "Design de interface",
+ "children": [
+    {"name": "Equipamento", "size": 91},
+    {"name": "Salvaguarda", "size": 25},
+    {"name": "Instrumento", "size": 15},
+    {"name": "Ferramenta", "size": 26},
+    {"name": "Instalação", "size": 170},
+    {"name": "Dimensionamento", "size": 3},
+    {"name": "Configuração", "size": 7}
  ]}
- 
+
+
+
+
     ]    
 }
