@@ -1,6 +1,5 @@
 {    
     "name": "Relatorio",
-    "children":[{"name": "Individuo",
     "children": [
        {"name": "Competências técnicas",
         "children": [
@@ -84,28 +83,19 @@
       {"name": "Familiar", "size": 3}
  ]},
 
-
+ {"name": "Design do trabalho",
+ "children": [
+    {"name": "Regra", "size": 3},
+    {"name": "Instrução", "size": 27},
+    {"name": "Diretriz", "size": 2},
+    {"name": "Procedimento", "size": 227},
+    {"name": "Norma", "size": 52},
+    {"name": "Revisão", "size": 143},
+    {"name": "Desvio", "size": 6},
+    {"name": "Gerenciamento de mudança", "size": 52},
+    {"name": "Gestão de mudança", "size": 27},
+    {"name": "Revisão", "size": 143},
+    {"name": "Reavaliação", "size": 2},
+ ]}
     ]    
-    }],
-
- "children":[{"name": "Trabalho",
-    "children": [
-    {"name": "Design do trabalho",
-    "children": [
-        {"name": "Regra", "size": 3},
-        {"name": "Instrução", "size": 27},
-        {"name": "Diretriz", "size": 2},
-        {"name": "Procedimento", "size": 227},
-        {"name": "Norma", "size": 52},
-        {"name": "Revisão", "size": 143},
-        {"name": "Desvio", "size": 6},
-        {"name": "Gerenciamento de mudança", "size": 52},
-        {"name": "Gestão de mudança", "size": 27},
-        {"name": "Revisão", "size": 143},
-        {"name": "Reavaliação", "size": 2},
-   ]}
-    ]
-    
-    }]
-
 }
