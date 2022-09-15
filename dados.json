@@ -1,36 +1,34 @@
-{   "name": "Relatorio",
-    "children": [{"name": "Indivíduo",
-    "children": [{"name": "Competências técnicas",
-        "children": [
-            {"name": "Saber", "size": 4}, 
-            {"name": "Competência", "size": 5 }, 
-            {"name": "Conhecimento","size": 33},
-            {"name": "Prática","size": 60},
-            {"name": "Vivência","size": 3},
-            {"name": "Treinamento","size": 39},
-            {"name": "Capacitação","size": 24},
-            {"name": "Capacidade","size": 10},
-        ]}
-                ],
-        "children": [{
-            "name": "Comunicação",
+{
+    "name": "Relatorio",
+    "children": [{
+        "name": "Competências técnicas",
+            "children": [
+                {"name": "Saber", "size": 4}, 
+                {"name": "Competência", "size": 5 }, 
+                {"name": "Conhecimento","size": 33},
+                {"name": "Prática","size": 60},
+                {"name": "Vivência","size": 3},
+                {"name": "Treinamento","size": 39},
+                {"name": "Capacitação","size": 24},
+                {"name": "Capacidade","size": 10},
+            ]}],
+
+    "children": [{
+        "name": "Comunicação",
             "children": [
                 {"name": "Comunicação", "size": 40}, 
                 {"name": "Informação", "size": 138 }, 
                 {"name": "Feedback","size": 3},
                 {"name": "Transmissão","size": 4},
                 {"name": "Entendimento","size": 8},
-                        ]
-                    }
-                ]   ,
-        "children": [{
-            "name": "Trabalho em equipe",
+            ]}],
+
+    "children": [{
+        "name": "Trabalho em equipe",
             "children": [
                 {"name": "Equipe", "size": 211}, 
                 {"name": "Time", "size": 37 }, 
                 {"name": "Grupo","size": 6},
-                {"name": "Conflito","size": 3},
-            ]}
-                    ],
-    }]
+                {"name": "Conflito","size": 3}
+        ]}]
 }
