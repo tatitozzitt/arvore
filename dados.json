@@ -1,5 +1,6 @@
-{
+{    
     "name": "Relatorio",
+    "children":[{"name": "Individuo",
     "children": [
        {"name": "Competências técnicas",
         "children": [
@@ -84,4 +85,5 @@
  ]}
 
     ]    
+    }]
 }
