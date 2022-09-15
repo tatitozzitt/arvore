@@ -1,0 +1,16 @@
+{
+    "name": "Relatorio",
+    "children": [{
+        "name": "Competências técnicas",
+        "children": [
+            {"name": "Saber", "size": 4}, 
+            {"name": "Competência", "size": 5 }, 
+            {"name": "Conhecimento","size": 33},
+            {"name": "Prática","size": 60},
+            {"name": "Vivência","size": 3},
+            {"name": "Treinamento","size": 39},
+            {"name": "Capacitação","size": 24},
+            {"name": "Capacidade","size": 10}
+        ]}
+                ]
+}
