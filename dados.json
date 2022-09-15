@@ -154,6 +154,6 @@
  "children": [
     {"name": "Gerenciamento de segurança", "size": 11},
     {"name": "Segurança operacional", "size": 339}
- ]},
+ ]}
     ]    
 }
