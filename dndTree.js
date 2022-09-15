@@ -27,7 +27,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.*/
 
 
 // Get JSON data
-treeJSON = d3.json("https://raw.githubusercontent.com/tatitozzitt/arvore/main/dados.json", function(error, treeData) {
+treeJSON = d3.json("https://raw.githubusercontent.com/tatitozzitt/arvore/02dfe4a2e46bdea484e453cfd1015177e0bedb39/dados.json", function(error, treeData) {
 
     // Calculate total nodes, max label length
     var totalNodes = 0;
