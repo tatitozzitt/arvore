@@ -27,7 +27,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.*/
 
 
 // Get JSON data
-treeJSON = d3.json("dados - ft_fr.json", function(error, treeData) {
+treeJSON = d3.json("https://raw.githubusercontent.com/tatitozzitt/arvore/main/arvore_fatores_frequencia/dados%20-%20te_fr.json", function(error, treeData) {
 
     // Calculate total nodes, max label length
     var totalNodes = 0;
